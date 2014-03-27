@@ -14,7 +14,7 @@ make
 
 Instructions
 ============
-To get all instructions, run the program:
+To get all instructions, run the program:\\
 ./karect
 
 
