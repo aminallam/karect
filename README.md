@@ -1,4 +1,4 @@
-karect
+Karect
 ======
 
 KAUST Assembly Reads Error Correction Tool  
