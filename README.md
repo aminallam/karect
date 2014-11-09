@@ -1,7 +1,7 @@
 Karect
 ======
 
-KAUST Assembly Reads Error Correction Tool  
+KAUST Assembly Read Error Correction Tool  
 
 Installation
 ============
