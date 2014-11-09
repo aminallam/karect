@@ -6,7 +6,7 @@ KAUST Assembly Read Error Correction Tool
 Installation
 ============
 
-tar -xzf karect-1.0.tgz  
+tar -xzf file_name.tar.gz  
 cd karect  
 make  
 
@@ -26,4 +26,4 @@ Reference
 =========
 
 Currently submitted to Bioinformatics, under the title:  
-Karect: Accurate Correction of Substitution, Insertion and Deletion Errors for Next-generation Sequencing Data
+Karect: Accurate Correction of Substitution, Insertion and Deletion Errors for Next-generation Sequencing Data  
