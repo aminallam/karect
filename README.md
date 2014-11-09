@@ -25,5 +25,5 @@ amin.allam@kaust.edu.sa
 Reference
 =========
 
-Currently submitted to Bioinformatics, under the title:
+Currently submitted to Bioinformatics, under the title:  
 Karect: Accurate Correction of Substitution, Insertion and Deletion Errors for Next-generation Sequencing Data
