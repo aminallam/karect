@@ -330,7 +330,7 @@ void Evaluate(FastqFiles& file_name_org, FastqFiles& file_name_fixed, const char
 	if(!file_align) return;
 
 	if(EOF==fscanf(file_align, "%s %d %d ", aligned, &aligned_edit, &aligned_num_res)) aligned_len=-1;
-	else{aligned_len=strlen(aligned); aligned_res.clear(); for(i=0;i<aligned_num_res;i++) {ResMap r; fscanf(file_align, "%d:%d ", &r.start, &r.end); aligned_res.push_back(r);}}
+	else{aligned_len=strlen(aligned); aligned_res.clear(); for(i=0;i<aligned_num_res;i++) {ResMap r; if(EOF!=fscanf(file_align, "%d:%d ", &r.start, &r.end)) aligned_res.push_back(r);}}
 
 	while(aligned_len>0)
 	{
@@ -404,7 +404,7 @@ void Evaluate(FastqFiles& file_name_org, FastqFiles& file_name_fixed, const char
 				num_reads++;
 
 				if(EOF==fscanf(file_align, "%s %d %d ", aligned, &aligned_edit, &aligned_num_res)) {aligned_len=-1; end_file=true; break;}
-				else{aligned_len=strlen(aligned); aligned_res.clear(); for(i=0;i<aligned_num_res;i++) {ResMap r; fscanf(file_align, "%d:%d ", &r.start, &r.end); aligned_res.push_back(r);}}
+				else{aligned_len=strlen(aligned); aligned_res.clear(); for(i=0;i<aligned_num_res;i++) {ResMap r; if(EOF!=fscanf(file_align, "%d:%d ", &r.start, &r.end)) aligned_res.push_back(r);}}
 			}
 		}
 
