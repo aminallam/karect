@@ -60,7 +60,7 @@ void MainHelp()
 	printf("  2) align:   a tool to align original assembly reads as pre-processing for evaluation.\n");
 	printf("  3) eval:    a tool to evaluate assembly reads correction.\n");
 	printf("  4) merge:   a tool to concatenate fasta/fastq files.\n");
-	printf("-Example: \"./karect -correct\"\n");
+	printf("-Example: \"karect -correct\"\n");
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
