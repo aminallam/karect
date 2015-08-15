@@ -7,10 +7,13 @@ Installation
 ============
 
 Extract the source code from the tarball using:
+
 tar -xzf {SOURCE}.tar.gz
   
 Change your directory to the extracted code, then run the commands:
+
 make
+
 make install  
 
 Instructions
